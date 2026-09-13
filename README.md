@@ -1,4 +1,4 @@
-# itkim-web-design
+# website-design
 
 可持续扩展的网站模板库 Skill，同时面向 **Codex** 和 **ZCode**。一个 Skill + 一个模板库，两个 Agent 读同一套文件，新增模板不需要重新制作 Skill。
 
@@ -29,7 +29,7 @@ Codex 无需注册机制：把本目录放在你的项目里（或任意固定�
 把本目录复制为 ZCode 的技能目录下的子目录（Windows 示例）：
 
 ```
-xcopy /E /I "D:\projects\website—degisn" "C:\Users\<你>\.agents\skills\itkim-web-design"
+xcopy /E /I "D:\projects\website—degisn" "C:\Users\<你>\.agents\skills\website-design"
 ```
 
 重启会话后即可被 ZCode 发现（本仓库即按此方式安装验证过）。
@@ -65,7 +65,7 @@ python scripts/validate.py
 ```bash
 cd "D:\projects\website—degisn"
 git init -b main
-git add -A && git commit -m "itkim-web-design v1.0.0"
+git add -A && git commit -m "website-design v1.0.0"
 git remote add origin https://github.com/Itkim666/website-design.git
 git push -u origin main
 ```

@@ -1,6 +1,6 @@
 # AGENTS.md
 
-本目录是 **itkim-web-design** 网站模板库 Skill（同时面向 Codex 和 ZCode）。
+本目录是 **website-design** 网站模板库 Skill（同时面向 Codex 和 ZCode）。
 
 任何 Agent 在此工作前，先读 [SKILL.md](SKILL.md)——模板发现、选择、套用、添加、验证的全部规则都在那里。
 

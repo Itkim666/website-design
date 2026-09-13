@@ -1,10 +1,10 @@
 ---
-name: itkim-web-design
+name: website-design
 version: 1.0.0
 description: 可持续扩展的网站模板库 Skill。Agent 读取 config/templates.json 发现模板，按用户需求选择模板，复制到新项目中修改，原始模板永不改动。适用于 Codex 和 ZCode。
 ---
 
-# itkim-web-design — 网站模板库 Skill
+# website-design — 网站模板库 Skill
 
 一个模板库 + 一套规则，同时服务 Codex 和 ZCode。新增模板只需加目录、登记索引，不需要改本 Skill。
 

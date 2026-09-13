@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the itkim-web-design skill: index <-> templates consistency.
+"""Validate the website-design skill: index <-> templates consistency.
 
 Run from anywhere: python scripts/validate.py
 """
