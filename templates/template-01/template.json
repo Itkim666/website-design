@@ -1,0 +1,21 @@
+{
+  "template_id": "template-01",
+  "template_name": "Itkim Portfolio",
+  "version": "1.0.0",
+  "description": "夜空视觉个人作品集：北极星 + 极光 + 流星粒子化交互背景，数据驱动的项目库与简历页面，构建产物为纯静态文件",
+  "category": ["portfolio", "personal", "resume"],
+  "style": ["modern", "technology", "minimal", "dark"],
+  "technology": ["React 18", "TypeScript", "Vite", "Canvas 2D"],
+  "responsive": true,
+  "animation": true,
+  "features": [
+    "单 requestAnimationFrame 的 Canvas 背景引擎：星野/北极星呼吸光晕/极光离屏渲染/流星，固定容量对象池，帧时长 EMA 监测自动降级",
+    "流星鼠标粒子化与重新聚合（连续 frag 变量，无状态跳变）",
+    "数据驱动：全部个人信息与项目由 src/data/site.ts + data/projects.json 管理，加项目不改页面代码",
+    "hash 路由 + 相对路径，纯静态构建可部署到任意静态服务器子路径",
+    "prefers-reduced-motion 支持与移动端降级"
+  ],
+  "recommended_for": ["程序员", "计算机专业学生", "个人作品集", "求职简历站"],
+  "source": "https://itkim666.github.io/portfolio/",
+  "user_data_files": ["src/data/site.ts", "data/projects.json", "public/projects/"]
+}
